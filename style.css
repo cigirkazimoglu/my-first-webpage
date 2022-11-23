@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 400px;
+  /* baslik */
+  float: left;
+  height: 70px;
+}
+.logo {
+  color: rgb(92, 171, 197);
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* bass guitar history */
+  padding-left: 20px;
+  float: left;
+  padding-top: 20px;
+}
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 38px;
+  /* menu yukaridan uzakligi */
+  font-size: 14px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(76, 188, 184);
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: rgb(197, 47, 97);
+}
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 720px;
+  margin-top: 15px;
+}
+
+.srch {
+  font-family: "Arial";
+  width: 150px;
+  height: 25px;
+  background: transparent;
+  /* search bar ozellikleri */
+  border: 1px solid rgb(60, 196, 208);
+  margin-top: none;
+  margin-right: none;
+  color: rgb(175, 193, 200);
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 1px;
+}
+
+.btn {
+  width: 75px;
+  height: 25px;
+  background: rgb(53, 165, 162);
+  border: 2px solid rgb(99, 202, 196);
+  margin-top: 8 px;
+  color: rgb(25, 24, 24);
+  font-size: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(37, 198, 139);
+}
+
+.btn .cn a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+.btn:focus {
+  outline: none;
+}
+.s:focus {
+  outline: none;
+}
+.content {
+  width: 1200px;
+  height: auto;
+  margin: left;
+  color: rgb(207, 226, 207);
+  position: relative;
+}
+.content .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2 px;
+  line-height: 30px;
+}
+.content h1 {
+  font-family: "Trebuchet MS";
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 99px;
+  letter-spacing: 2 px;
+}
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background: rgb(135, 167, 135);
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.content .cn a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+.cn:hover {
+  background-color: aquamarine;
+}
